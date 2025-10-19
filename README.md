@@ -17,7 +17,7 @@ The Indian Election Dashboard is a full-stack application designed to provide in
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/LongClawSword/indian_election_dashboard.git
 cd indian_election_dashboard
 ```
 
@@ -32,7 +32,6 @@ Once the application is running, open your browser and navigate to:
 ```
 http://localhost:8501/
 ```
-
 ## Backend
 The backend is built with Python and uses FastAPI for creating RESTful APIs. It connects to a PostgreSQL database to store and retrieve election data.
 
@@ -40,12 +39,6 @@ The backend is built with Python and uses FastAPI for creating RESTful APIs. It 
 - `main.py`: Entry point for the backend server.
 - `crud.py`: Contains CRUD operations for the database.
 - `models.py`: Defines the database schema.
-
-### Running Backend Tests
-To run the tests for the backend, execute:
-```bash
-python backend/test.py
-```
 
 ## Frontend
 The frontend is built with Python and uses libraries like Plotly and Dash to create interactive visualizations.
@@ -56,16 +49,3 @@ The frontend is built with Python and uses libraries like Plotly and Dash to cre
 
 ## Database
 The PostgreSQL database stores the election data. Configuration files for the database are located in the `postgres_data/` directory.
-
-## Contributing
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push them to your fork.
-4. Submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Acknowledgments
-- Data sources: TCPD GE dataset
-- Libraries: FastAPI, Dash, Plotly, PostgreSQL
