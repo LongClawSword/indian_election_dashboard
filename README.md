@@ -57,3 +57,26 @@ The frontend is built with Python and uses libraries like Plotly and Dash to cre
 
 ## Database
 The PostgreSQL database stores the election data. Configuration files for the database are located in the `postgres_data/` directory.
+
+## Database Schema
+
+The database schema for the `election_results` table is as follows:
+
+| Column Name          | Data Type | Description                          |
+|----------------------|-----------|--------------------------------------|
+| `id`                | Integer   | Primary key, unique identifier       |
+| `year`              | Integer   | Election year                        |
+| `state`             | String    | State name                           |
+| `constituency`      | String    | Constituency name                    |
+| `candidate`         | String    | Candidate name                       |
+| `party`             | String    | Political party                      |
+| `votes`             | Integer   | Total votes received                 |
+| `vote_share_percentage` | Float  | Vote share percentage                |
+| `position`          | Integer   | Position in the election             |
+| `margin`            | Integer   | Vote margin                          |
+| `margin_percentage` | Float     | Margin percentage                    |
+| `gender`            | String    | Gender of the candidate              |
+| `education`         | String    | Education level of the candidate     |
+| `profession`        | String    | Profession of the candidate          |
+| `party_type`        | String    | Type of political party              |
+| `is_winner`         | Boolean   | Indicates if the candidate won       |
