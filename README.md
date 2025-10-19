@@ -32,6 +32,13 @@ Once the application is running, open your browser and navigate to:
 ```
 http://localhost:8501/
 ```
+
+## Swagger UI
+
+You can access the Swagger UI for this project at the following URL:
+
+[Swagger UI - API Documentation](http://localhost:8000/docs#/default/get_results_results_get)
+
 ## Backend
 The backend is built with Python and uses FastAPI for creating RESTful APIs. It connects to a PostgreSQL database to store and retrieve election data.
 
